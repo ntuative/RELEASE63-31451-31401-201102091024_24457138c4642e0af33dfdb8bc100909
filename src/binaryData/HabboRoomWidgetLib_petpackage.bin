@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="open_petpackage" width="306" height="164" version="0.1" uid="2602DA64-32FF-3E89-7A36-CBACB3C51644">
+  <window>
+    <border x="0" y="0" width="306" height="164" params="16" style="0">
+      <children>
+        <text x="10" y="9" width="260" height="24" params="16" style="0" name="static_info_text" caption="%24%7Bwidgets.petpackage.name.select%7D">
+          <variables>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <border x="97" y="39" width="106" height="25" params="16" style="0" name="input_border">
+          <children>
+            <input x="8" y="5" width="89" height="17" params="1" style="0" name="input" background="true">
+              <variables>
+                <var key="always_show_selection" value="true" type="Boolean"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="max_chars" value="30" type="int"/>
+              </variables>
+            </input>
+          </children>
+        </border>
+        <text x="99" y="73" width="161" height="39" params="16" style="0" name="info_text">
+          <variables>
+            <var key="auto_size" value="null" type="String"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <button x="20" y="126" width="150" height="25" params="131089" style="0" name="pick_name" caption="%24%7Bwidgets.petpackage.name.pick%7D" width_min="150" width_max="200"/>
+        <button x="217" y="125" width="70" height="25" params="393233" style="0" name="cancel" caption="%24%7Bgeneric.cancel%7D" width_min="70" width_max="70"/>
+        <bitmap x="15" y="37" width="68" height="68" params="16" style="0" name="pet_image"/>
+      </children>
+    </border>
+  </window>
+</layout>
